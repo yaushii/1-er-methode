@@ -22,7 +22,7 @@ public class principale08 {
 		System.out.println("Saisissez le pourcentage de réduction.");
 		tauxSolde = clavier.nextDouble();
 		clavier.close();
-		calculSolde(prixArticle, tauxSolde);
+		calculSolde(prixArticle, tauxSolde);// appel de la fonction 
 		
 		
 	}
