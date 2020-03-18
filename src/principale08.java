@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 
 public class principale08 {
-	
-	static void calculSolde(double prixArticle, double tauxSolde){
+	// methode qui ne renvoie pas de valur, mais qui permetta	
+	//de calculé le montant total solde dans la fonction main lorsqu'elle est appeler
+	static void calculSolde(double prixArticle, double tauxSolde){ 
+
 	double prixSolde;
 	prixSolde = (1 - tauxSolde/100)*prixArticle;
 		System.out.println("Le prix de l'article soldé est de "+ prixSolde +"€");
